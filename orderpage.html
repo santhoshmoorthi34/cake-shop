@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="orderpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="home-page" id="home-order">
+
+        <ul class="nav justify-content-center">
+            <div class="image-logo">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c0b38a3a-ac58-42a6-95c9-9ebc7541a4fc/db2azhz-d3ba1b85-c426-4447-b637-e702e70c50ea.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MwYjM4YTNhLWFjNTgtNDJhNi05NWM5LTllYmM3NTQxYTRmY1wvZGIyYXpoei1kM2JhMWI4NS1jNDI2LTQ0NDctYjYzNy1lNzAyZTcwYzUwZWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m2o9hjTqnwjcYVDjlWzKOSfUIr7A7D9QyHNo3UeT7Oc"
+                    alt="">
+            </div>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#my-home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Categeory
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link ">Contact me</a>
+            </li>
+            <li class="nav-item">
+
+                <div class="search">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                            style="border:2px solid black ; background-color:white; border-radius: 20px; color: black;">
+                        <button class="btn btn-outline-success" type="submit"
+                            style="border-radius: 20px; font-size: 18px;">Search</button>
+                    </form>
+                </div>
+
+            </li>
+            <div class="icons">
+                <li class="nav-item">
+                    <a class="nav-link " id="cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " id="heart"><i class="fa-solid fa-heart"></i></a>
+                </li>
+            </div>
+        </ul>
+
+        <div class="container text-center" id="home">
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="https://png.pngtree.com/png-clipart/20231105/original/pngtree-frosting-fantasy-a-moist-vanilla-cake-slice-delight-png-image_13508030.png
+            " class="img-fluid" style="width: 500px; height: 500px; filter: drop-shadow(border-left 1px solid #000)">
+
+
+
+
+                </div>
+                <div class="col-sm-8" id="orderpage">
+                    <h1>"vennila cakes"</h1>
+                    <p>The sweet aroma of freshly baked pastries and warm vanilla fills the air as delicate cakes,
+                        adorned
+                        with swirls of buttercream and glistening fruit, beckon from their glass display, each one a
+                        tiny
+                        masterpiece waiting to delight.</p>
+                    <div class="d-grid gap-2 d-md-block">
+
+
+
+                        <div class="input-groups">
+                            <form id="form">
+                            <div class="inputs">
+                                <input placeholder="Enter Your Cake Name" id="inputbox">
+                                <input type="number" placeholder="How Many Kg" id="KiloGram">
+
+                                <input type="text" placeholder="enetr Your Address">
+                                <div class="orderbutton">
+                                    <!-- <button class="btn btn-primary" id="check" type="button"  onclick="update()">check price</button> -->
+                                    <!-- <button onclick="update()">checj]k pricd </button> -->
+                                     <input type="submit" value="Get Cake" style="width: 100px;
+                                     height: 60px; font-size: 20px; font-family: 'Times New Roman', Times, serif; background-color: blue; color: white;">
+                            
+
+
+
+                                </div>
+
+                            </form>
+                              
+
+
+                            </div>
+
+
+
+                            <div class="inputs">
+
+
+                                <div class="details">
+                                    <h2>cake name</h2>
+                                    <span id="name"></span>
+                                    <h2>price</h2>
+                                    <span id="price"></span>
+                                </div>
+
+                                <button class="btn btn-primary" type="button">Order now</button>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="line">
+        <hr>
+    </div>
+
+    <div class="container text-center">
+        <div class="col-sm-12">
+            <h2>Our Products</h2>
+
+        </div>
+    </div>
+
+
+    <div class="container text-center py-4 px-4">
+        <div class="row">
+            <div class="col">
+                <div class="card"
+                    style="width: 18rem; margin: 20px; border-radius: 30px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);">
+                    <img src="https://pngimg.com/uploads/cake/cake_PNG13108.png" class="card-img-top" style="width: 200px; height: 200px; margin-left: 50px; margin-top: 10px;">
+                    <div class="card-body">
+                        <p class="card-text">vennila.</p>
+                        <a href="file:/C:/Users/santhosh/Desktop/java%20projrct/malini/orderpage.html#my-home"
+                            class="btn btn-primary">order Now</a>
+                        <a class="btn btn-primary"   >Addcart</a>
+                        <!-- <button >add </button> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"
+                    style="width: 18rem; margin: 20px; border-radius: 30px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5)">
+                    <img src="https://th.bing.com/th/id/R.b268bfac0c46fc802dd273aeba42a859?rik=B75jGrzExpRKsQ&riu=http%3a%2f%2fmiam-images.m.i.pic.centerblog.net%2fb72b5497.png&ehk=916o0GDSNXTApuSNUtSEW6DnOAvObTs7X1T5Im7rrAk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1 s" class="card-img-top" style="width: 200px; height: 200px; margin-left: 50px; margin-top: 10px;">
+                    <div class="card-body">
+                        <p class="card-text">Stabery</p>
+                            <a href="file:/C:/Users/santhosh/Desktop/java%20projrct/malini/orderpage.html#my-home"
+                            class="btn btn-primary">order Now</a>
+                        <a class="btn btn-primary"  >Addcart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card"
+                    style="width: 18rem; margin: 20px; border-radius: 30px; box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5)">
+                    <img src="https://purepng.com/public/uploads/large/purepng.com-cookies-in-a-bowcookieamericandelicioussnacksweetyummybiscuit-21525886674awwpx.png" class="card-img-top" style="width: 200px; height: 200px; margin-left: 50px; margin-top: 10px;">
+                    <div class="card-body">
+                        <p class="card-text">Cookies</p>
+                            <a href="file:/C:/Users/santhosh/Desktop/java%20projrct/malini/orderpage.html#my-home"
+                            class="btn btn-primary">order Now</a>
+                        <a class="btn btn-primary"   >Addcart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line">
+        <hr>
+    </div>
+
+
+    >
+
+
+    <script>
+        let inputbox = document.getElementById("inputbox")
+        let kg = document.getElementById('KiloGram')
+
+
+        let name = document.getElementById("name")
+        let price = document.getElementById("price")
+
+
+      let Rate = 345;
+    
+
+     
+let form = document.getElementById('form');
+
+form.addEventListener('submit',function(e){
+    e.preventDefault();
+    name.textContent = inputbox.value;
+    price.innerHTML = kg.value*Rate;
+
+    console.log(kg.value*Rate);
+    
+})
+
+
+
+
+        function update() {}
+    </script>
+</body>

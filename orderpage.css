@@ -1,0 +1,109 @@
+.nav{
+    /* margin-top: 30px; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: aliceblue;
+    padding: 20px;
+
+}
+.nav a{
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
+#home{
+    margin-top: 90px;
+}
+#home h1{
+    margin-top: 0px;
+    font-size: 75px;
+    font-weight: 700;
+}
+.home{
+    background-color: bisque;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+
+.search{
+    margin-left: 50px;
+}
+.image-logo img{
+    width: 40px ;
+    height: 40px;
+    margin-right: 150px;
+}
+.icons{
+    display: flex;
+    margin-left: 60px;
+}
+#heart{
+    color: red;
+}
+#cart{
+    color: green;
+}
+hr{
+    width: 1300px;
+    margin-left: 300px;
+
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.orderpage{
+    margin-top: 90px;
+
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   width: 300px;
+   height: auto;
+   background-color: antiquewhite;
+   padding: 30px;
+   margin-left: 70px;
+   gap: 30px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5)
+}
+.inputs input{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    outline: none;
+     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5)
+}
+
+.orderbutton{
+    display: flex;
+    gap: 5px;
+}
+.input-groups{
+    display: flex;
+}
+#name{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#price{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
